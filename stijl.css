@@ -1,0 +1,44 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+h1, h3 {text-align: center;}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap:1em;
+  justify-items: center;
+
+}
+
+h1, footer {
+  text-align: center;
+  background: royalblue;
+  color: #ccc;
+  padding: .5em;
+  position: relative;
+  cursor: pointer;
+}
+main, p {
+  width: 183px;
+}
+h1 {
+  margin: 0;
+}
+
+.images{
+  margin-left: 300px;
+}
+
+.button {
+  /* height: auto;
+  width: 150px; */
+}
+h3, button{
+
+}
